@@ -1,0 +1,139 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Domain.Product.API", "Domains\Product\Mkt.Domain.Product.API\Mkt.Domain.Product.API.csproj", "{D211819D-B506-4C44-8CA5-361022526E8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{6006923E-0AD0-4E16-BBE0-23107D6C1541}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{F7878119-B710-44E3-92CE-E6B1EE91329F}"
+	ProjectSection(SolutionItems) = preProject
+		Domains\Product\Dockerfile = Domains\Product\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{2FAC460C-E6F1-4886-B466-19E69DA525BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Gateway.API", "Gateways\Mkt.Gateway.API\Mkt.Gateway.API.csproj", "{9C31953F-4870-4DB0-884B-24A714AB064D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{483139B3-D2BF-41BC-A066-C0994FACAFB2}"
+	ProjectSection(SolutionItems) = preProject
+		Domains\Order\Dockerfile = Domains\Order\Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Domain.Order.API", "Domains\Order\Mkt.Domain.Order.API\Mkt.Domain.Order.API.csproj", "{DF075101-FE8B-46AC-A269-ABA534A0DA47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D3290673-9FA0-41E9-9455-A52308F00684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mysql", "Mysql", "{099C125D-1592-4BAD-A594-2F7E081C8EF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kafka", "Kafka", "{789952F4-A424-413C-BBEE-90A10C351F39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{910FD5B3-7816-44F4-BE57-3366B333F9E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderSubmitted", "OrderSubmitted", "{B2984B10-DA86-4421-A06C-49F7B8DF509B}"
+	ProjectSection(SolutionItems) = preProject
+		Business\OrderSubmitted\Dockerfile = Business\OrderSubmitted\Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Business.OrderSubmitted.API", "Business\OrderSubmitted\Mkt.Business.OrderSubmitted.API\Mkt.Business.OrderSubmitted.API.csproj", "{3ACAC4FA-0555-4C85-A0C5-E7142C99BD3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Business.OrderSubmitted.Application", "Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\Mkt.Business.OrderSubmitted.Application.csproj", "{62CA0057-B43D-4017-A6A4-71BE527FD4FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Profile", "Profile", "{0E158AF8-1B78-4EEE-9387-D41491AD7DE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Domain.Profile.API", "Domains\Profile\Mkt.Domain.Profile.API\Mkt.Domain.Profile.API.csproj", "{785A55A3-37C4-48F4-A7FC-95F9EE0E5408}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Domain.Order.Application", "Domains\Order\Mkt.Domain.Order.Application\Mkt.Domain.Order.Application.csproj", "{84F6F587-3EF1-44E3-9B96-AC789CCA2C8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClearSaleIntegration", "ClearSaleIntegration", "{91CDF7DC-32B4-44FB-ABBD-35D12704F2A1}"
+	ProjectSection(SolutionItems) = preProject
+		Business\ClearSaleIntegration\Dockerfile = Business\ClearSaleIntegration\Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Business.ClearSaleIntegration.Worker", "Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Worker\Mkt.Business.ClearSaleIntegration.Worker.csproj", "{C89EE4C0-3467-4D33-9ACC-52EA492CE1BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Business.ClearSaleIntegration.Application", "Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\Mkt.Business.ClearSaleIntegration.Application.csproj", "{524694C4-883E-4282-AEFC-A9FFA59FAAFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Domain.Product.Application", "Domains\Product\Mkt.Domain.Product.Application\Mkt.Domain.Product.Application.csproj", "{A70EA103-9A76-4A10-AF96-4873A9EBDB26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2961962F-B8C2-4A3E-AD79-49AFCC285615}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose-build-images.yml = docker-compose-build-images.yml
+		docker-compose-stack.yml = docker-compose-stack.yml
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D211819D-B506-4C44-8CA5-361022526E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D211819D-B506-4C44-8CA5-361022526E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D211819D-B506-4C44-8CA5-361022526E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D211819D-B506-4C44-8CA5-361022526E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C31953F-4870-4DB0-884B-24A714AB064D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C31953F-4870-4DB0-884B-24A714AB064D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C31953F-4870-4DB0-884B-24A714AB064D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C31953F-4870-4DB0-884B-24A714AB064D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF075101-FE8B-46AC-A269-ABA534A0DA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF075101-FE8B-46AC-A269-ABA534A0DA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF075101-FE8B-46AC-A269-ABA534A0DA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF075101-FE8B-46AC-A269-ABA534A0DA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACAC4FA-0555-4C85-A0C5-E7142C99BD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACAC4FA-0555-4C85-A0C5-E7142C99BD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACAC4FA-0555-4C85-A0C5-E7142C99BD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACAC4FA-0555-4C85-A0C5-E7142C99BD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62CA0057-B43D-4017-A6A4-71BE527FD4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CA0057-B43D-4017-A6A4-71BE527FD4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CA0057-B43D-4017-A6A4-71BE527FD4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CA0057-B43D-4017-A6A4-71BE527FD4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785A55A3-37C4-48F4-A7FC-95F9EE0E5408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785A55A3-37C4-48F4-A7FC-95F9EE0E5408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785A55A3-37C4-48F4-A7FC-95F9EE0E5408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785A55A3-37C4-48F4-A7FC-95F9EE0E5408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F6F587-3EF1-44E3-9B96-AC789CCA2C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F6F587-3EF1-44E3-9B96-AC789CCA2C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F6F587-3EF1-44E3-9B96-AC789CCA2C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F6F587-3EF1-44E3-9B96-AC789CCA2C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89EE4C0-3467-4D33-9ACC-52EA492CE1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89EE4C0-3467-4D33-9ACC-52EA492CE1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89EE4C0-3467-4D33-9ACC-52EA492CE1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89EE4C0-3467-4D33-9ACC-52EA492CE1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524694C4-883E-4282-AEFC-A9FFA59FAAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524694C4-883E-4282-AEFC-A9FFA59FAAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524694C4-883E-4282-AEFC-A9FFA59FAAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524694C4-883E-4282-AEFC-A9FFA59FAAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70EA103-9A76-4A10-AF96-4873A9EBDB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70EA103-9A76-4A10-AF96-4873A9EBDB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70EA103-9A76-4A10-AF96-4873A9EBDB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70EA103-9A76-4A10-AF96-4873A9EBDB26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D211819D-B506-4C44-8CA5-361022526E8B} = {F7878119-B710-44E3-92CE-E6B1EE91329F}
+		{F7878119-B710-44E3-92CE-E6B1EE91329F} = {6006923E-0AD0-4E16-BBE0-23107D6C1541}
+		{9C31953F-4870-4DB0-884B-24A714AB064D} = {2FAC460C-E6F1-4886-B466-19E69DA525BA}
+		{483139B3-D2BF-41BC-A066-C0994FACAFB2} = {6006923E-0AD0-4E16-BBE0-23107D6C1541}
+		{DF075101-FE8B-46AC-A269-ABA534A0DA47} = {483139B3-D2BF-41BC-A066-C0994FACAFB2}
+		{099C125D-1592-4BAD-A594-2F7E081C8EF0} = {D3290673-9FA0-41E9-9455-A52308F00684}
+		{789952F4-A424-413C-BBEE-90A10C351F39} = {D3290673-9FA0-41E9-9455-A52308F00684}
+		{B2984B10-DA86-4421-A06C-49F7B8DF509B} = {910FD5B3-7816-44F4-BE57-3366B333F9E2}
+		{3ACAC4FA-0555-4C85-A0C5-E7142C99BD3A} = {B2984B10-DA86-4421-A06C-49F7B8DF509B}
+		{62CA0057-B43D-4017-A6A4-71BE527FD4FA} = {B2984B10-DA86-4421-A06C-49F7B8DF509B}
+		{0E158AF8-1B78-4EEE-9387-D41491AD7DE9} = {6006923E-0AD0-4E16-BBE0-23107D6C1541}
+		{785A55A3-37C4-48F4-A7FC-95F9EE0E5408} = {0E158AF8-1B78-4EEE-9387-D41491AD7DE9}
+		{84F6F587-3EF1-44E3-9B96-AC789CCA2C8C} = {483139B3-D2BF-41BC-A066-C0994FACAFB2}
+		{91CDF7DC-32B4-44FB-ABBD-35D12704F2A1} = {910FD5B3-7816-44F4-BE57-3366B333F9E2}
+		{C89EE4C0-3467-4D33-9ACC-52EA492CE1BE} = {91CDF7DC-32B4-44FB-ABBD-35D12704F2A1}
+		{524694C4-883E-4282-AEFC-A9FFA59FAAFB} = {91CDF7DC-32B4-44FB-ABBD-35D12704F2A1}
+		{A70EA103-9A76-4A10-AF96-4873A9EBDB26} = {F7878119-B710-44E3-92CE-E6B1EE91329F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0E0F3C0-DDF2-4C12-82FB-65B5BFF309BD}
+	EndGlobalSection
+EndGlobal

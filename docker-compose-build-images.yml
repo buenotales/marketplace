@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  
+#### API GATEWAY ####
+
+  buenotales/mkt-gateway-api:
+    build:
+     context: ./Gateways/Mkt.Gateway.API
+    hostname: mkt-gateway-api
