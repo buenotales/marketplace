@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "2N7pxTL8voiYloXWNBUQELDo2awGeajjec/5UEsmQkgwZ09KJ5sSw73irAydhhpi3mgZj8tnTFgEU9eocKl/iw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tales\\.nuget\\packages\\confluent.kafka\\1.9.3\\confluent.kafka.1.9.3.nupkg.sha512",
+    "C:\\Users\\tales\\.nuget\\packages\\librdkafka.redist\\1.9.2\\librdkafka.redist.1.9.2.nupkg.sha512",
+    "C:\\Users\\tales\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tales\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tales\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\tales\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\tales\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\bin\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.deps.json
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\bin\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.dll
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\bin\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.pdb
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\obj\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.csproj.AssemblyReference.cache
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\obj\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\obj\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.AssemblyInfoInputs.cache
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\obj\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.AssemblyInfo.cs
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\obj\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.csproj.CoreCompileInputs.cache
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\obj\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.dll
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\obj\Debug\net6.0\refint\Mkt.Business.ClearSaleIntegration.Application.dll
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\obj\Debug\net6.0\Mkt.Business.ClearSaleIntegration.Application.pdb
+C:\Users\tales\source\repos\Marketplace\Business\ClearSaleIntegration\Mkt.Business.ClearSaleIntegration.Application\obj\Debug\net6.0\ref\Mkt.Business.ClearSaleIntegration.Application.dll

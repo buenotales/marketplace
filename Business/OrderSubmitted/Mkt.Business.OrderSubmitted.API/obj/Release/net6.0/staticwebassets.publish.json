@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IAVgi0Q3N4z3NOM0mxWTLkGjD34rtUfM4k6urxTN1jM=",
+  "Source": "Mkt.Business.OrderSubmitted.API",
+  "BasePath": "_content/Mkt.Business.OrderSubmitted.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
