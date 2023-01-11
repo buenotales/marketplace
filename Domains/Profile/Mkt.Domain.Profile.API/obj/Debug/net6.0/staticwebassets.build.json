@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DYLxaE8yer8T0VZk1X4EEZdjmTBMButGVTo7KMOncvM=",
+  "Source": "Mkt.Domain.Profile.API",
+  "BasePath": "_content/Mkt.Domain.Profile.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

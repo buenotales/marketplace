@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sn9syRdjgcmpou6fCcHG/wJ4iaNMwZtKeF+UotBZ4XQ=",
+  "Source": "Mkt.Domain.Order.API",
+  "BasePath": "_content/Mkt.Domain.Order.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

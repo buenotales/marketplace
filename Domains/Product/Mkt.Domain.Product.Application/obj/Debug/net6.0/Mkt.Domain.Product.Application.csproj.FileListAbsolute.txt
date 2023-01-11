@@ -1,0 +1,14 @@
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\bin\Debug\net6.0\Mkt.Domain.Product.Application.deps.json
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\bin\Debug\net6.0\Mkt.Domain.Product.Application.dll
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\bin\Debug\net6.0\Mkt.Domain.Product.Application.pdb
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\Mkt.Domain.Product.Application.csproj.AssemblyReference.cache
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\Mkt.Domain.Product.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\Mkt.Domain.Product.Application.AssemblyInfoInputs.cache
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\Mkt.Domain.Product.Application.AssemblyInfo.cs
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\Mkt.Domain.Product.Application.csproj.CoreCompileInputs.cache
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\Mkt.Domain.Product.Application.dll
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\refint\Mkt.Domain.Product.Application.dll
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\Mkt.Domain.Product.Application.pdb
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\ref\Mkt.Domain.Product.Application.dll
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\bin\Debug\net6.0\Mkt.Domain.Product.Application.runtimeconfig.json
+C:\Users\tales\source\repos\Marketplace\Domains\Product\Mkt.Domain.Product.Application\obj\Debug\net6.0\Mkt.Domain.Product.Application.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\bin\Debug\net6.0\Mkt.Domain.Order.Application.deps.json
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\bin\Debug\net6.0\Mkt.Domain.Order.Application.dll
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\bin\Debug\net6.0\Mkt.Domain.Order.Application.pdb
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\obj\Debug\net6.0\Mkt.Domain.Order.Application.csproj.AssemblyReference.cache
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\obj\Debug\net6.0\Mkt.Domain.Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\obj\Debug\net6.0\Mkt.Domain.Order.Application.AssemblyInfoInputs.cache
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\obj\Debug\net6.0\Mkt.Domain.Order.Application.AssemblyInfo.cs
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\obj\Debug\net6.0\Mkt.Domain.Order.Application.csproj.CoreCompileInputs.cache
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\obj\Debug\net6.0\Mkt.Domain.Order.Application.dll
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\obj\Debug\net6.0\refint\Mkt.Domain.Order.Application.dll
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\obj\Debug\net6.0\Mkt.Domain.Order.Application.pdb
+C:\Users\tales\source\repos\Marketplace\Domains\Order\Mkt.Domain.Order.Application\obj\Debug\net6.0\ref\Mkt.Domain.Order.Application.dll
