@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZSesX7FeTyCH/8oXzxNuErXxOCoTK18lWgzlGZ3zGgM=",
+  "Source": "Mkt.Gateway.API",
+  "BasePath": "_content/Mkt.Gateway.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
