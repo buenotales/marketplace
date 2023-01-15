@@ -2,20 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>2e0307cf-e993-4e5b-87cc-b196bbf77ca5</UserSecretsId>
+    <UserSecretsId>1b2fa019-6285-4408-b65d-ee69a6ee35f8</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Mkt.Domain.Profile.Application\Mkt.Domain.Profile.Application.csproj" />
+    <ProjectReference Include="..\Mkt.Business.ReportService.Application\Mkt.Business.ReportService.Application.csproj" />
   </ItemGroup>
 
 </Project>

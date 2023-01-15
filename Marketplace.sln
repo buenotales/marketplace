@@ -59,10 +59,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Domain.Product.Applicat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2961962F-B8C2-4A3E-AD79-49AFCC285615}"
 	ProjectSection(SolutionItems) = preProject
-		docker-compose-build-images.yml = docker-compose-build-images.yml
 		docker-compose-stack.yml = docker-compose-stack.yml
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkt.Business.ReportService.API", "Business\ReportService\Mkt.Business.ReportService.API\Mkt.Business.ReportService.API.csproj", "{0814EF69-8EA2-4091-84D5-7E82B02B7386}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportService", "ReportService", "{6DCF5055-87B2-4310-B44E-DFCE82159A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkt.Business.ReportService.Application", "Business\ReportService\Mkt.Business.ReportService.Application\Mkt.Business.ReportService.Application.csproj", "{71CF254E-AD6E-45AD-ACD3-306169072AB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkt.Domain.Profile.Application", "Domains\Profile\Mkt.Domain.Profile.Application\Mkt.Domain.Profile.Application.csproj", "{1E06C64E-3090-4C55-A34E-4EEE7555EF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkt.Business.ReportServiceProfile.Worker", "Business\ReportService\Mkt.Business.ReportService.Worker\Mkt.Business.ReportServiceProfile.Worker.csproj", "{D1C2B037-9F72-443E-9A8F-7F597E34AA3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,6 +119,22 @@ Global
 		{A70EA103-9A76-4A10-AF96-4873A9EBDB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A70EA103-9A76-4A10-AF96-4873A9EBDB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A70EA103-9A76-4A10-AF96-4873A9EBDB26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0814EF69-8EA2-4091-84D5-7E82B02B7386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0814EF69-8EA2-4091-84D5-7E82B02B7386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0814EF69-8EA2-4091-84D5-7E82B02B7386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0814EF69-8EA2-4091-84D5-7E82B02B7386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CF254E-AD6E-45AD-ACD3-306169072AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CF254E-AD6E-45AD-ACD3-306169072AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CF254E-AD6E-45AD-ACD3-306169072AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CF254E-AD6E-45AD-ACD3-306169072AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E06C64E-3090-4C55-A34E-4EEE7555EF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E06C64E-3090-4C55-A34E-4EEE7555EF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E06C64E-3090-4C55-A34E-4EEE7555EF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E06C64E-3090-4C55-A34E-4EEE7555EF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C2B037-9F72-443E-9A8F-7F597E34AA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C2B037-9F72-443E-9A8F-7F597E34AA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C2B037-9F72-443E-9A8F-7F597E34AA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C2B037-9F72-443E-9A8F-7F597E34AA3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +157,11 @@ Global
 		{C89EE4C0-3467-4D33-9ACC-52EA492CE1BE} = {91CDF7DC-32B4-44FB-ABBD-35D12704F2A1}
 		{524694C4-883E-4282-AEFC-A9FFA59FAAFB} = {91CDF7DC-32B4-44FB-ABBD-35D12704F2A1}
 		{A70EA103-9A76-4A10-AF96-4873A9EBDB26} = {F7878119-B710-44E3-92CE-E6B1EE91329F}
+		{0814EF69-8EA2-4091-84D5-7E82B02B7386} = {6DCF5055-87B2-4310-B44E-DFCE82159A60}
+		{6DCF5055-87B2-4310-B44E-DFCE82159A60} = {910FD5B3-7816-44F4-BE57-3366B333F9E2}
+		{71CF254E-AD6E-45AD-ACD3-306169072AB5} = {6DCF5055-87B2-4310-B44E-DFCE82159A60}
+		{1E06C64E-3090-4C55-A34E-4EEE7555EF94} = {0E158AF8-1B78-4EEE-9387-D41491AD7DE9}
+		{D1C2B037-9F72-443E-9A8F-7F597E34AA3C} = {6DCF5055-87B2-4310-B44E-DFCE82159A60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0E0F3C0-DDF2-4C12-82FB-65B5BFF309BD}

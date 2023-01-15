@@ -51,6 +51,32 @@
           "Port": 5012
         }
       ]
+    },
+    {
+      "UpstreamPathTemplate": "/report/ordersByUser",
+      "UpstreamHttpMethod": [ "Post" ],
+      "RouteIsCaseSensitive": false,
+      "DownstreamPathTemplate": "/api/reportService/AllOrdersByUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5014
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/profiles",
+      "UpstreamHttpMethod": [ "Get" ],
+      "RouteIsCaseSensitive": false,
+      "DownstreamPathTemplate": "/api/profiles",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5013
+        }
+      ]
     }
   ],
   "GlobalConfiguration": {
