@@ -15,6 +15,12 @@ services:
       - net
     depends_on:
       - db-mysql
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
 
   domain-order-api:
     image: buenotales/mkt-domain-order-api
@@ -24,6 +30,12 @@ services:
       - "5011:5011"
     networks:
       - net
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
 
   domain-profile-api:
     image: buenotales/mkt-domain-profile-api
@@ -33,6 +45,12 @@ services:
       - "5012:5012"
     networks:
       - net
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
 
   #### SERVICES OF BUSINESS ####
 
@@ -49,15 +67,21 @@ services:
     depends_on:
       - domain-order-api
       - infra-kafka
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
 
-  business-clear_sale_integration-worker:
-    image: buenotales/mkt-business-clear_sale_integration-worker
-    environment:
-      Kafka__Server: infra-kafka:19091
-    networks:
-      - net
-    depends_on:
-      - infra-kafka
+  # business-clear_sale_integration-worker:
+  #   image: buenotales/mkt-business-clear_sale_integration-worker
+  #   environment:
+  #     Kafka__Server: infra-kafka:19091
+  #   networks:
+  #     - net
+  #   depends_on:
+  #     - infra-kafka
 
   #### DATABASES ####
 
@@ -116,7 +140,7 @@ services:
     deploy:
       replicas: 1
       placement:
-        constraints: [ node.role == manager ]
+        constraints: [ node.role == manager]
 
   infra-kafdrop:
     image: obsidiandynamics/kafdrop
@@ -128,6 +152,12 @@ services:
       - infra-kafka
     networks:
       - net
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == manager]
 
 #### NETWORKS ####
 
