@@ -2,6 +2,22 @@ version: '3'
 
 services:
 
+  #### API GATEWAY ####
+
+  gateway-api:
+    image: buenotales/mkt-gateway-api
+    environment:
+      ASPNETCORE_URLS: http://+:5000
+      ASPNETCORE_ENVIRONMENT: Docker
+    ports:
+      - "5000:5000"
+    networks:
+      - net
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role == manager]
+
   #### SERVICES OF DOMAINS ####
 
   domain-product-api:
@@ -9,8 +25,6 @@ services:
     environment:
       ASPNETCORE_URLS: http://+:5010
       ConnectionStrings__db-mysql: server=db-mysql;port=3306;user=root;password=root;database=mkt-domain-product;
-    ports:
-      - "5010:5010"
     networks:
       - net
     depends_on:
@@ -26,8 +40,6 @@ services:
     image: buenotales/mkt-domain-order-api
     environment:
       ASPNETCORE_URLS: http://+:5011
-    ports:
-      - "5011:5011"
     networks:
       - net
     deploy:
@@ -41,8 +53,6 @@ services:
     image: buenotales/mkt-domain-profile-api
     environment:
       ASPNETCORE_URLS: http://+:5012
-    ports:
-      - "5012:5012"
     networks:
       - net
     deploy:
@@ -60,8 +70,6 @@ services:
       ASPNETCORE_URLS: http://+:5110
       Order__UrlBase: http://domain-order-api:5011
       Kafka__Server: infra-kafka:19091
-    ports:
-      - "5110:5110"
     networks:
       - net
     depends_on:
@@ -74,14 +82,20 @@ services:
       placement:
         constraints: [node.role == worker]
 
-  # business-clear_sale_integration-worker:
-  #   image: buenotales/mkt-business-clear_sale_integration-worker
-  #   environment:
-  #     Kafka__Server: infra-kafka:19091
-  #   networks:
-  #     - net
-  #   depends_on:
-  #     - infra-kafka
+  business-clear_sale_integration-worker:
+    image: buenotales/mkt-business-clear_sale_integration-worker
+    environment:
+      Kafka__Server: infra-kafka:19091
+    networks:
+      - net
+    depends_on:
+      - infra-kafka
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
 
   #### DATABASES ####
 
@@ -163,7 +177,6 @@ services:
 
 networks:
   net:
-
 
 volumes:
   db-mysql-data:
