@@ -8,7 +8,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mkt-domain-product-api",
+          "Host": "domain-product-api",
           "Port": 5010
         }
       ]
@@ -21,7 +21,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mkt-domain-product-api",
+          "Host": "domain-product-api",
           "Port": 5010
         }
       ]
@@ -34,34 +34,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mkt-domain-order-api",
+          "Host": "domain-order-api",
           "Port": 5011
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/orders/submit",
-      "UpstreamHttpMethod": [ "Post" ],
-      "RouteIsCaseSensitive": false,
-      "DownstreamPathTemplate": "/api/ordersSubmittedies/Register",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "mkt-business-order_submitted-api",
-          "Port": 5012
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/report/ordersByUser",
-      "UpstreamHttpMethod": [ "Post" ],
-      "RouteIsCaseSensitive": false,
-      "DownstreamPathTemplate": "/api/reportService/AllOrdersByUser",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "mkt-business-report_service-api",
-          "Port": 5014
         }
       ]
     },
@@ -73,8 +47,34 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mkt-domain-profile-api",
-          "Port": 5013
+          "Host": "domain-profile-api",
+          "Port": 5012
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/orders/submit",
+      "UpstreamHttpMethod": [ "Post" ],
+      "RouteIsCaseSensitive": false,
+      "DownstreamPathTemplate": "/api/ordersSubmittedies/Register",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "business-order_submitted-api",
+          "Port": 5110
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/report/ordersByUser",
+      "UpstreamHttpMethod": [ "Post" ],
+      "RouteIsCaseSensitive": false,
+      "DownstreamPathTemplate": "/api/reportService/AllOrdersByUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "business-report_service-api",
+          "Port": 5111
         }
       ]
     }

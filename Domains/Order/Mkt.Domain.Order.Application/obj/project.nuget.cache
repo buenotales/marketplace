@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xt3ai6pvWpS7AB3bs3f2qHufLNqLgcVrU0vSct7RVahd2h5v/Y2p1AJ00Ngj/TD3zZZU1Mh5vhRxU103G8jYBA==",
+  "dgSpecHash": "fC9HuvpSFMmncXj6k0YHTcRijzI1U7fzA3LwYfbzIAA70PPdAG/npHwkTvHi2g6L9KNrJtUDXsmPccNTtzLQGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj",
+  "projectFilePath": "C:\\Users\\tales\\Desktop\\marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

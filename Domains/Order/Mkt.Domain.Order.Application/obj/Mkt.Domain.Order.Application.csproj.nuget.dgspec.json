@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tales\\source\\repos\\Marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj": {}
+    "C:\\Users\\tales\\Desktop\\marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tales\\source\\repos\\Marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj": {
+    "C:\\Users\\tales\\Desktop\\marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tales\\source\\repos\\Marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj",
+        "projectUniqueName": "C:\\Users\\tales\\Desktop\\marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj",
         "projectName": "Mkt.Domain.Order.Application",
-        "projectPath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj",
+        "projectPath": "C:\\Users\\tales\\Desktop\\marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\Mkt.Domain.Order.Application.csproj",
         "packagesPath": "C:\\Users\\tales\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\obj\\",
+        "outputPath": "C:\\Users\\tales\\Desktop\\marketplace\\Domains\\Order\\Mkt.Domain.Order.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tales\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

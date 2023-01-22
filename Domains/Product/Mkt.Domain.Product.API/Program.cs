@@ -13,7 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ProductContext>(options =>
 {
-    string connectionStringMysql = builder.Configuration.GetConnectionString("mkt-domain-product-db-mysql");
+    string connectionStringMysql = builder.Configuration.GetConnectionString("db-mysql");
     options.UseMySql(connectionStringMysql, ServerVersion.AutoDetect(connectionStringMysql), b => b.MigrationsAssembly("Mkt.Domain.Product.API"));
 });
 

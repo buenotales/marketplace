@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HOkNtYcliYsbyKWmOnKfGduL5e4UZBxnmcgJAv3R/XoTBBzdky6mjCu5BV3ZGUY5aPnHoW44NMW5eRoPwsJdeQ==",
+  "dgSpecHash": "FvhyHaRGd+qc0iV1ggI+VOrS9nSkTQDY14v1diaYa0lfc3SLr2Ve08qwTQH+tjjMhhcYribx1hXcSpyWndT6+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\OrderSubmitted\\Mkt.Business.OrderSubmitted.Application\\Mkt.Business.OrderSubmitted.Application.csproj",
+  "projectFilePath": "C:\\Users\\tales\\Desktop\\marketplace\\Business\\OrderSubmitted\\Mkt.Business.OrderSubmitted.Application\\Mkt.Business.OrderSubmitted.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tales\\.nuget\\packages\\confluent.kafka\\1.9.3\\confluent.kafka.1.9.3.nupkg.sha512",
     "C:\\Users\\tales\\.nuget\\packages\\librdkafka.redist\\1.9.2\\librdkafka.redist.1.9.2.nupkg.sha512",

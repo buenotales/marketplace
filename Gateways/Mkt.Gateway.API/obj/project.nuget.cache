@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aP29eOmRzs2WwL8oCad9/buWHcMWwm9PLYNV1u3HZ/5iS1NUOFracweZabt0SZz6Xtn5tczoqpi4hP4hBXSnSw==",
+  "dgSpecHash": "7Bi+12GKJLJseXQwngJH8k97Jg2kjrgVBbawYIE4Cyx+3hGw3OttCm6meJ9UxrZ7q2kN0Ck3PNuY3B63Gl3kfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj",
+  "projectFilePath": "C:\\Users\\tales\\Desktop\\marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tales\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\tales\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.1\\microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",

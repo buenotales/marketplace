@@ -11,7 +11,7 @@ namespace Mkt.Domain.Product.Application.Infraestructure.Contexts
 
         public ProductContext(DbContextOptions<ProductContext> options) : base(options)
         {
-            //Database.Migrate();
+            Database.Migrate();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

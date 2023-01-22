@@ -2,9 +2,22 @@
   "Routes": [
     {
       "UpstreamPathTemplate": "/products",
-      "UpstreamHttpMethod": [ "Get" ],
+      "UpstreamHttpMethod": [ "Get", "Post" ],
       "RouteIsCaseSensitive": false,
       "DownstreamPathTemplate": "/api/products",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5010
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/products/{productId}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Patch" ],
+      "RouteIsCaseSensitive": false,
+      "DownstreamPathTemplate": "/api/products/{productId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -27,6 +40,19 @@
       ]
     },
     {
+      "UpstreamPathTemplate": "/profiles",
+      "UpstreamHttpMethod": [ "Get" ],
+      "RouteIsCaseSensitive": false,
+      "DownstreamPathTemplate": "/api/profiles",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5012
+        }
+      ]
+    },
+    {
       "UpstreamPathTemplate": "/submit",
       "UpstreamHttpMethod": [ "Post" ],
       "RouteIsCaseSensitive": false,
@@ -35,7 +61,20 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5012
+          "Port": 5110
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/report/ordersByUser",
+      "UpstreamHttpMethod": [ "Post" ],
+      "RouteIsCaseSensitive": false,
+      "DownstreamPathTemplate": "/api/reportService/AllOrdersByUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5111
         }
       ]
     }

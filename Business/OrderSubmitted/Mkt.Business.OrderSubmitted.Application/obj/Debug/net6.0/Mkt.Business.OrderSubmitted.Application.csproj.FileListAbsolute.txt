@@ -10,3 +10,15 @@ C:\Users\tales\source\repos\Marketplace\Business\OrderSubmitted\Mkt.Business.Ord
 C:\Users\tales\source\repos\Marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\refint\Mkt.Business.OrderSubmitted.Application.dll
 C:\Users\tales\source\repos\Marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.pdb
 C:\Users\tales\source\repos\Marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\ref\Mkt.Business.OrderSubmitted.Application.dll
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\bin\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.deps.json
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\bin\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.dll
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\bin\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.pdb
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.csproj.AssemblyReference.cache
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.AssemblyInfoInputs.cache
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.AssemblyInfo.cs
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.csproj.CoreCompileInputs.cache
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.dll
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\refint\Mkt.Business.OrderSubmitted.Application.dll
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\Mkt.Business.OrderSubmitted.Application.pdb
+C:\Users\tales\Desktop\marketplace\Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\obj\Debug\net6.0\ref\Mkt.Business.OrderSubmitted.Application.dll

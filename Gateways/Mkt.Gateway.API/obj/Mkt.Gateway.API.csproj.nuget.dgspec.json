@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tales\\source\\repos\\Marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj": {}
+    "C:\\Users\\tales\\Desktop\\marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tales\\source\\repos\\Marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj": {
+    "C:\\Users\\tales\\Desktop\\marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tales\\source\\repos\\Marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj",
+        "projectUniqueName": "C:\\Users\\tales\\Desktop\\marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj",
         "projectName": "Mkt.Gateway.API",
-        "projectPath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj",
+        "projectPath": "C:\\Users\\tales\\Desktop\\marketplace\\Gateways\\Mkt.Gateway.API\\Mkt.Gateway.API.csproj",
         "packagesPath": "C:\\Users\\tales\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Gateways\\Mkt.Gateway.API\\obj\\",
+        "outputPath": "C:\\Users\\tales\\Desktop\\marketplace\\Gateways\\Mkt.Gateway.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tales\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

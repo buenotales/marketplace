@@ -12,7 +12,10 @@ RUN dotnet publish ./Mkt.Domain.Order.API/Mkt.Domain.Order.API.csproj -c Release
 
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
+
 ENV ASPNETCORE_URLS=http://+:5011
+EXPOSE 5011
+
 WORKDIR /App
 COPY --from=build-env /App/out .
 ENTRYPOINT ["dotnet", "Mkt.Domain.Order.API.dll"]

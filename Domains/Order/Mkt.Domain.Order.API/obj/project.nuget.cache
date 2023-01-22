@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zaTRhPcDK1xJIEBgQb8mqhud8lR9+xGmPYTfSjFkADyo0cvuRo3QPnVy4/9zbkJ+cxwxSg5tVBQiW91cygRT1A==",
+  "dgSpecHash": "jxMniky7bCu4nUiwk4xqW+jAlgwaSi0B2i9CX7McB5HQ7e/yR4tioC/sXZjLsZu6hk7MqutilXiW0dLvfI2qBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Domains\\Order\\Mkt.Domain.Order.API\\Mkt.Domain.Order.API.csproj",
+  "projectFilePath": "C:\\Users\\tales\\Desktop\\marketplace\\Domains\\Order\\Mkt.Domain.Order.API\\Mkt.Domain.Order.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tales\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\tales\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

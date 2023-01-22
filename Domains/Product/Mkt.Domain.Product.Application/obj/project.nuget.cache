@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xzCyPsl3VbYQPhrana//02Mxz8NqKxdH+HK4UjDkfNqkOjkfe1WVk8rQ7L/naHyOm5Gemsg9+i7TExPkaGTVCw==",
+  "dgSpecHash": "f6NelEjxcTUrf1NGdRwCAdptxSogk+6pvZUhq2rqsuLjHnDlG9jLS4rnBozP8OJKw06hnPLvUHoM+ETaK8eqBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Domains\\Product\\Mkt.Domain.Product.Application\\Mkt.Domain.Product.Application.csproj",
+  "projectFilePath": "C:\\Users\\tales\\Desktop\\marketplace\\Domains\\Product\\Mkt.Domain.Product.Application\\Mkt.Domain.Product.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tales\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tales\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",

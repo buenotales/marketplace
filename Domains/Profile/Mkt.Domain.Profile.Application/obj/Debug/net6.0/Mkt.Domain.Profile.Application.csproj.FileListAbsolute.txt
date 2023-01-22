@@ -1,0 +1,12 @@
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\bin\Debug\net6.0\Mkt.Domain.Profile.Application.deps.json
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\bin\Debug\net6.0\Mkt.Domain.Profile.Application.dll
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\bin\Debug\net6.0\Mkt.Domain.Profile.Application.pdb
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\obj\Debug\net6.0\Mkt.Domain.Profile.Application.csproj.AssemblyReference.cache
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\obj\Debug\net6.0\Mkt.Domain.Profile.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\obj\Debug\net6.0\Mkt.Domain.Profile.Application.AssemblyInfoInputs.cache
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\obj\Debug\net6.0\Mkt.Domain.Profile.Application.AssemblyInfo.cs
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\obj\Debug\net6.0\Mkt.Domain.Profile.Application.csproj.CoreCompileInputs.cache
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\obj\Debug\net6.0\Mkt.Domain.Profile.Application.dll
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\obj\Debug\net6.0\refint\Mkt.Domain.Profile.Application.dll
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\obj\Debug\net6.0\Mkt.Domain.Profile.Application.pdb
+C:\Users\tales\Desktop\marketplace\Domains\Profile\Mkt.Domain.Profile.Application\obj\Debug\net6.0\ref\Mkt.Domain.Profile.Application.dll

@@ -13,9 +13,6 @@ RUN dotnet publish ./Mkt.Business.ClearSaleIntegration.Worker/Mkt.Business.Clear
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 
-# Declare environment variables
-ENV Kafka__Server=kafka1:19091
-
 WORKDIR /App
 COPY --from=build-env /App/out .
 ENTRYPOINT ["dotnet", "Mkt.Business.ClearSaleIntegration.Worker.dll"]

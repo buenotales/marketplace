@@ -14,9 +14,8 @@ RUN dotnet publish ./Mkt.Business.OrderSubmitted.API/Mkt.Business.OrderSubmitted
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 
 # Declare environment variables
-ENV ASPNETCORE_URLS=http://+:5012
-ENV Order__UrlBase=http://marketplace-domain-order-api:5011
-ENV Kafka__Server=kafka1:19091
+ENV ASPNETCORE_URLS=http://+:5110
+EXPOSE 5110
 
 WORKDIR /App
 COPY --from=build-env /App/out .

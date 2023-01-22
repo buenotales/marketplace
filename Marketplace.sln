@@ -41,6 +41,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Business.OrderSubmitted.Application", "Business\OrderSubmitted\Mkt.Business.OrderSubmitted.Application\Mkt.Business.OrderSubmitted.Application.csproj", "{62CA0057-B43D-4017-A6A4-71BE527FD4FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Profile", "Profile", "{0E158AF8-1B78-4EEE-9387-D41491AD7DE9}"
+	ProjectSection(SolutionItems) = preProject
+		Domains\Profile\Dockerfile = Domains\Profile\Dockerfile
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Domain.Profile.API", "Domains\Profile\Mkt.Domain.Profile.API\Mkt.Domain.Profile.API.csproj", "{785A55A3-37C4-48F4-A7FC-95F9EE0E5408}"
 EndProject
@@ -63,15 +66,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkt.Business.ReportService.API", "Business\ReportService\Mkt.Business.ReportService.API\Mkt.Business.ReportService.API.csproj", "{0814EF69-8EA2-4091-84D5-7E82B02B7386}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Business.ReportService.API", "Business\ReportService\Mkt.Business.ReportService.API\Mkt.Business.ReportService.API.csproj", "{0814EF69-8EA2-4091-84D5-7E82B02B7386}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportService", "ReportService", "{6DCF5055-87B2-4310-B44E-DFCE82159A60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkt.Business.ReportService.Application", "Business\ReportService\Mkt.Business.ReportService.Application\Mkt.Business.ReportService.Application.csproj", "{71CF254E-AD6E-45AD-ACD3-306169072AB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Business.ReportService.Application", "Business\ReportService\Mkt.Business.ReportService.Application\Mkt.Business.ReportService.Application.csproj", "{71CF254E-AD6E-45AD-ACD3-306169072AB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkt.Domain.Profile.Application", "Domains\Profile\Mkt.Domain.Profile.Application\Mkt.Domain.Profile.Application.csproj", "{1E06C64E-3090-4C55-A34E-4EEE7555EF94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Domain.Profile.Application", "Domains\Profile\Mkt.Domain.Profile.Application\Mkt.Domain.Profile.Application.csproj", "{1E06C64E-3090-4C55-A34E-4EEE7555EF94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkt.Business.ReportServiceProfile.Worker", "Business\ReportService\Mkt.Business.ReportService.Worker\Mkt.Business.ReportServiceProfile.Worker.csproj", "{D1C2B037-9F72-443E-9A8F-7F597E34AA3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mkt.Business.ReportServiceProfile.Worker", "Business\ReportService\Mkt.Business.ReportService.Worker\Mkt.Business.ReportServiceProfile.Worker.csproj", "{D1C2B037-9F72-443E-9A8F-7F597E34AA3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

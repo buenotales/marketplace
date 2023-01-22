@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\Mkt.Business.ClearSaleIntegration.Worker.csproj": {}
+    "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\Mkt.Business.ClearSaleIntegration.Worker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj": {
+    "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj",
+        "projectUniqueName": "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj",
         "projectName": "Mkt.Business.ClearSaleIntegration.Application",
-        "projectPath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj",
+        "projectPath": "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj",
         "packagesPath": "C:\\Users\\tales\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\obj\\",
+        "outputPath": "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tales\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,16 @@
               "target": "Package",
               "version": "[1.9.3, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -51,6 +61,10 @@
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -69,18 +83,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\Mkt.Business.ClearSaleIntegration.Worker.csproj": {
+    "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\Mkt.Business.ClearSaleIntegration.Worker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\Mkt.Business.ClearSaleIntegration.Worker.csproj",
+        "projectUniqueName": "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\Mkt.Business.ClearSaleIntegration.Worker.csproj",
         "projectName": "Mkt.Business.ClearSaleIntegration.Worker",
-        "projectPath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\Mkt.Business.ClearSaleIntegration.Worker.csproj",
+        "projectPath": "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\Mkt.Business.ClearSaleIntegration.Worker.csproj",
         "packagesPath": "C:\\Users\\tales\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\obj\\",
+        "outputPath": "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Worker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tales\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +111,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj": {
-                "projectPath": "C:\\Users\\tales\\source\\repos\\Marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj"
+              "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj": {
+                "projectPath": "C:\\Users\\tales\\Desktop\\marketplace\\Business\\ClearSaleIntegration\\Mkt.Business.ClearSaleIntegration.Application\\Mkt.Business.ClearSaleIntegration.Application.csproj"
               }
             }
           }
@@ -113,6 +127,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -138,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -40,6 +40,19 @@
       ]
     },
     {
+      "UpstreamPathTemplate": "/profiles",
+      "UpstreamHttpMethod": [ "Get" ],
+      "RouteIsCaseSensitive": false,
+      "DownstreamPathTemplate": "/api/profiles",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5012
+        }
+      ]
+    },
+    {
       "UpstreamPathTemplate": "/submit",
       "UpstreamHttpMethod": [ "Post" ],
       "RouteIsCaseSensitive": false,
@@ -48,7 +61,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5012
+          "Port": 5110
         }
       ]
     },
@@ -61,20 +74,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5014
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/profiles",
-      "UpstreamHttpMethod": [ "Get" ],
-      "RouteIsCaseSensitive": false,
-      "DownstreamPathTemplate": "/api/profiles",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 5013
+          "Port": 5111
         }
       ]
     }
