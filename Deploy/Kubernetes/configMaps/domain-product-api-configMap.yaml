@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-domain-product-api
+  namespace: marketplace
+data:
+  ASPNETCORE_URLS: http://+:5010
+  ConnectionStrings__db-mysql: server=svc-db-mysql;port=5306;user=root;password=root;database=mkt-domain-product;

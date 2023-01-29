@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-domain-profile-api
+  namespace: marketplace
+data:
+  ASPNETCORE_URLS: http://+:5012

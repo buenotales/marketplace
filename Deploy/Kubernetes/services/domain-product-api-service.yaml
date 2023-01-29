@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-domain-product-api
+  namespace: marketplace
+  labels:
+    app: svc-domain-product-api
+spec:
+  type: NodePort
+  ports:
+  - name: http
+    nodePort: 35010
+    targetPort: 5010
+    port: 5010
+    protocol: TCP
+  selector:
+    app: pod-domain-product-api 

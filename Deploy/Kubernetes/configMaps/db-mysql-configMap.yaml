@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-db-mysql
+  namespace: marketplace
+data:
+  MYSQL_ROOT_PASSWORD: root

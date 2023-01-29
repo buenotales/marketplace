@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-business-order_submitted-api
+  namespace: marketplace
+  labels:
+    app: svc-business-order_submitted-api
+spec:
+  type: NodePort
+  ports:
+  - name: http
+    nodePort: 35110
+    targetPort: 5110
+    port: 5110
+    protocol: TCP
+  selector:
+    app: pod-business-order_submitted-api 

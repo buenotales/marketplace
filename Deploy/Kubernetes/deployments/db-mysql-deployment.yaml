@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-db-mysql
+  namespace: marketplace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pod-db-mysql
+  template:
+    metadata:
+      labels:
+        app: pod-db-mysql
+    spec:
+      containers:
+      - name: container-db-mysql
+        image: mysql:latest
+        ports:
+        - containerPort: 3306
+        envFrom:
+        - configMapRef:
+            name: configmap-db-mysql

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-db-mysql
+  namespace: marketplace
+  labels:
+    app: svc-db-mysql
+spec:
+  type: LoadBalancer
+  ports:
+    - targetPort: 3306
+      port: 5306
+  selector:
+    app: pod-db-mysql

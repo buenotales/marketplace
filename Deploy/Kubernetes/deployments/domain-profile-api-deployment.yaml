@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-domain-profile-api
+  namespace: marketplace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pod-domain-profile-api
+  template:
+    metadata:
+      labels:
+        app: pod-domain-profile-api
+    spec:
+      containers:
+      - name: container-domain-profile-api
+        image: buenotales/mkt-domain-profile-api:latest
+        ports:
+        - containerPort: 5012
+        envFrom:
+        - configMapRef:
+            name: configmap-domain-profile-api
