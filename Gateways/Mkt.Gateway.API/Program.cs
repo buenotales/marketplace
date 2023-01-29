@@ -16,6 +16,10 @@ if (builder.Environment.EnvironmentName.ToLower() == "development")
 }
 if (builder.Environment.EnvironmentName.ToLower() == "docker")
 {
+    builder.Configuration.AddJsonFile("ocelot.Docker.json", optional: false, reloadOnChange: true);
+}
+if (builder.Environment.EnvironmentName.ToLower() == "aks")
+{
     builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
 }
 builder.Services.AddAuthentication();

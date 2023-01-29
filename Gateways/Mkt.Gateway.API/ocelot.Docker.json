@@ -8,7 +8,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "domain-product-api.marketplace.svc.cluster.local",
+          "Host": "domain-product-api",
           "Port": 5010
         }
       ]
@@ -21,7 +21,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "domain-product-api.marketplace.svc.cluster.local",
+          "Host": "domain-product-api",
           "Port": 5010
         }
       ]
@@ -34,7 +34,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "domain-order-api.marketplace.svc.cluster.local",
+          "Host": "domain-order-api",
           "Port": 5011
         }
       ]
@@ -47,7 +47,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "domain-profile-api.marketplace.svc.cluster.local",
+          "Host": "domain-profile-api",
           "Port": 5012
         }
       ]
@@ -60,7 +60,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "business-order_submitted-api.marketplace.svc.cluster.local",
+          "Host": "business-order_submitted-api",
           "Port": 5110
         }
       ]
@@ -73,7 +73,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "business-report_service-api.marketplace.svc.cluster.local",
+          "Host": "business-report_service-api",
           "Port": 5111
         }
       ]
